@@ -8,8 +8,23 @@
 		
 		<style type="text/css">
 		
+		* {
+			padding:0px;
+			margin:0px;
+		}
+		p{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			font-weight: bold;
+		}
 		
-		ul, ol {
+		nav {
+			margin:auto;
+			width:500px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+		nav, ul, ol {
 			list-style:none;
 		}
 		
@@ -22,119 +37,125 @@
 		}
 		
 		
-		.list-group ul li{
-			display:;
-			position:bsolute;
+		.list-group li ul{
+			display:none;
+			position:absolute;
 			min-width:140px;
 		}
 		
-		.list-group > li {
+		nav {
 			float:left;
 		}
 		
-		.list-group ul:hover > li {
+		.list-group li:hover > ul {
 			display:block;
 		}
+		
+
 		
 		</style>
 
 	</head>
 
-	<body>
+	<body style="width:100%; height:100%; ">
 		<div id="indice" class="container" style="width:100%; height:100%;">
+			<nav class="list-group">
 			<h1>Indice</h1>
-			<ul class="list-group">
 				<li>
 					<a class="list-group-item list-group-item-action active" aria-current="true" href="inicio">Introducción</a>
+					<ul>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#12">12_Definition of GDP</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#13">13_Value Added</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#14">14_GDP</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#15">15_Real_Nominal_GDP</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#16">16_GDP_standards</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#17">17_Summing_up</a>
+						</li>
+					</ul>
 				</li>
-				<ul>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#12">12_Definition of GDP</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#13">13_Value Added</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#14">14_GDP</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#15">15_Real_Nominal_GDP</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#16">16_GDP_standards</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#17">17_Summing_up</a>
-					</li>
-				</ul>
+
 
 				<li>
 					<a class="list-group-item list-group-item-action" href="#21">21_Introduction</a>
+					<ul>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#221">221_Savings_Investment</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#222">222_Market_Loanable_Funds</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#223">223_MLF_Policy_Changes</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#231">231_Statistics_Labour_Market</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#232">232_Types_unemployment</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#241">241_Price_levels_CPI</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#242">242_CPI_GDP</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#243">243_Comparing _economic_variables</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#25">25_Summingup</a>
+						</li>
+					</ul>
 				</li>
-				<ul>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#221">221_Savings_Investment</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#222">222_Market_Loanable_Funds</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#223">223_MLF_Policy_Changes</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#231">231_Statistics_Labour_Market</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#232">232_Types_unemployment</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#241">241_Price_levels_CPI</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#242">242_CPI_GDP</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#243">243_Comparing _economic_variables</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#25">25_Summingup</a>
-					</li>
-				</ul>
+				
 				<li>
 					<a class="list-group-item list-group-item-action" href="#31">31_Introduction</a>
+					
+					<ul>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#32">32_Money</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#33A">33A_Simple_Structure_I</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#33B">33B_Simple_Structure_II</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#34A">34A_The_ central_banks_I</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#35">35_classical_theory</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#36">36_classical_dichotomy</a>
+						</li>
+						<li>
+							<a class="list-group-item list-group-item-action" href="#37">37_Summarizing</a>
+						</li>
+					</ul>
 				</li>
-				<ul>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#32">32_Money</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#33A">33A_Simple_Structure_I</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#33B">33B_Simple_Structure_II</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#34A">34A_The_ central_banks_I</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#35">35_classical_theory</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#36">36_classical_dichotomy</a>
-					</li>
-					<li>
-						<a class="list-group-item list-group-item-action" href="#37">37_Summarizing</a>
-					</li>
-				</ul>
-			</ul>
+			</nav>
 		</div>
 		
 		
 		<div class="container" style="width:100%; height:100%;" align="justify">
 		
-		<h2 id="inicio">Bienvenido</h2>
 		
-		<p class="h4">
+		<h1 id="inicio">Bienvenido</h2>
+		
+		<p>
 
 		Bienvenido a nuestro curso sobre Fundamentos de Macroeconomía.
 		Mi nombre es Ángel Hernando Veciana y estoy muy contento de tenerlos aquí hoy.
@@ -199,9 +220,11 @@
 		para minimizar la intensidad y las consecuencias negativas de
 		de esas fluctuaciones. Mantengan esta agenda en mente porque ahora
 		es el momento de comenzar.
+		</p>
 
 		<h2 id="12">12_Definition of GDP</h2>
 		
+		<p>
 		Para comenzar, es necesario tener en cuenta de que, en la Macroeconomía, es muy conveniente resumir
 		la información mediante el uso de agregados macroeconómicos.
 		El producto interior bruto, tema principal de este video,
@@ -257,7 +280,7 @@
 		Por lo tanto, el PIB incluye bienes tangibles y servicios intangibles.
 		El PIB se centra únicamente en los bienes producidos actualmente y, por lo tanto,
 		excluye del PIB todos los mercados de segunda mano.
-		<span style="font-size:11.0pt;line-height:115%; font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family: Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi; mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Un coche de segunda mano se vende en un mercado y tiene un precio, pero no está</span>
+		Un coche de segunda mano se vende en un mercado y tiene un precio, pero no está
 		incluido en el PIB porque ya se ha
 		incluido en el año en que se produjo
 		y se vendió al primer propietario. La unidad estándar en Macroeconomía
@@ -275,14 +298,12 @@
 		en un cierto periodo, típicamente un año, aunque las estimaciones trimestrales
 		también son bastante habituales.  Ahora tomaremos un breve descanso para continuar más tarde
 		hablando sobre el valor agregado.
-
-
+		</p>
 
 
 		<h2 id="13">13_Value Added</h2>
 
-
-
+		<p>
 		Una vez que hemos entendido la definición del PIB, podemos pasar
 		a otro concepto muy importante relacionado con la medición
 		de la actividad económica: el valor añadido. También veremos la conexión
@@ -375,7 +396,7 @@
 		El dinero restante (la parte verde en nuestro gráfico) es el valor añadido;
 		es la contribución de esta empresa al PIB. ¿A dónde va este dinero?
 		Se usa para pagar salarios (a los trabajadores),
-		<p class="MsoNormal"><o:p></o:p></p>o rentas (a quienes alquilan tierra o capital a la empresa)
+		o rentas (a quienes alquilan tierra o capital a la empresa)
 		y el dinero restante va a los propietarios de la empresa como ganancia.
 		Estos se llaman el retorno a los factores productivos.
 		Este proceso implica que todo el valor añadido generado por
@@ -392,14 +413,13 @@
 		el valor total producido en una economía, es decir el PIB, se puede calcular
 		sumando el valor añadido de todas las empresas. A continuación, veremos
 		la conexión con el gasto de todos los agentes de la economía.
-
-
+		</p>
 
 
 		<h2 id="14">14_GDP</h2>
 
 
-
+		<p>
 		Otra forma de analizar el PIB es pensar quién compra los
 		bienes y servicios producidos en un país
 		o, en palabras más técnicas, pensar en el gasto agregado
@@ -466,10 +486,11 @@
 		y el sector externo. Una vez más, hemos encontrado otra forma alternativa
 		de medir el PIB. En esta ocasión, sumando todos los gastos
 		de los agentes de una economía.
-
+		</p>
 
 		<h2 id="15">15_Real_Nominal_GDP</h2>
 
+		<p>
 		En la definición de PIB hemos utilizado los precios de mercado para valorar
 		los bienes producidos. Esto es necesario y razonable.
 		Necesario porque tenemos que expresar el precio de cada bien en una unidad común y razonable
@@ -562,11 +583,11 @@
 		a otro, podemos empezar a pensar cómo esto afecta
 		a las vidas de los individuos en una economía. Esto es lo que haremos
 		a continuación
-
+		</p>
 
 		<h2 id="16">16_GDP_standards</h2>
 
-
+		<p>
 		En esta última parte de la clase 1, veremos cómo el PIB de un país se relaciona
 		con los niveles de vida de los individuos en ese país
 		y cómo podemos formalizar las formas en que el PIB aumenta
@@ -631,11 +652,11 @@
 		que caracterizan la evolución a corto plazo del PIB per cápita,
 		su crecimiento a largo plazo puede explicarse
 		por los cambios en algunos de estos cuatro elementos.
-
+		</p>
 
 		<h2 id="17">17_Summing_up</h2>
 
-
+		<p>
 		Es hora de que terminemos y resumamos nuestra primera unidad.
 		Hemos introducido la variable más importante en Macroeconomía:
 		el producto interior bruto. Hemos visto
@@ -661,9 +682,11 @@
 		explicación de un fenómeno tan complejo como el desempleo.
 		Te esperamos en las próximas sesiones, continuaremos con
 		 nuestro viaje al núcleo del análisis macroeconómico.
+		</p>
 
 		<h2 id="21">21_Introduction</h2>
 
+		<p>
 		Bienvenido a la segunda clase de nuestro curso en Macroeconomía.
 		Hoy abordaremos tres temas que nos ayudarán a establecer
 		las bases para una mejor comprensión de la evolución del PIB
@@ -689,10 +712,11 @@
 		para comparar variables nominales y reales a lo largo del tiempo.
 		Ahora, es el momento de comenzar con el primero de los temas: ahorros
 		e inversiones.
+		</p>
 
 		<h2 id="221">221_Savings_Investment</h2>
 
-
+		<p>
 		La primera parte de esta clase cubre la relación entre
 		<span style="font-size:11.0pt;line-height:115%; font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family: Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin; mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi; mso-ansi-language:ES;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">dos variables cruciales para entender el crecimiento en el </span>
 		largo plazo: el ahorro y la inversión. En la clase anterior,
@@ -780,10 +804,11 @@
 		conectan los ahorros de un agente en particular con la inversión
 		de otro. Esto se hace en lo que llamamos el mercado de fondos prestables,
 		el tema de nuestro próximo video.
+		</p>
 
 		<h2 id="222">222_Market_Loanable_Funds</h2>
 
-
+		<p>
 		En el vídeo anterior hemos visto que en economía, en general,
 		(asumiendo una economía cerrada), los ahorros son iguales a la inversión.
 		Esto es cierto en conjunto, pero no es necesario que sea cierto para
@@ -887,9 +912,11 @@
 		en el contexto del Sistema de Cuentas Nacionales, en una economía cerrada.
 		Nuestro próximo objetivo es mostrar cómo hacer un análisis de políticas
 		utilizando el análisis del mercado de fondos prestables.
+		</p>
 
 		<h2 id="223">223_MLF_Policy_Changes</h2>
 
+		<p>
 		El análisis del ahorro y la inversión a través del mercado
 		de fondos prestables abre la posibilidad de analizar
 		cómo algunos cambios exógenos afectan las variables relevantes en equilibrio.
@@ -944,9 +971,11 @@
 		e inversión. Finalmente, el mercado de fondos prestables ayuda
 		a comprender cómo las diferentes alternativas de política
 		afectan la inversión y la acumulación de capital a largo plazo.
+		</p>
 
 		<h2 id="231">231_Statistics_Labour_Market</h2>
 
+		<p>
 		En la primera clase de este curso, hemos visto que el nivel
 		de actividad económica en un país está estrechamente relacionado con sus
 		niveles medios de vida. Uno de los principales canales a través del cual
@@ -1020,9 +1049,11 @@
 		como Sudáfrica superan el 25% de desempleo.
 		El desempleo es un tema tan importante en las economías modernas que merece un
 		análisis detallado. Este será nuestro próximo tema.
+		</p>
 
 		<h2 id="232">232_Types_unemployment</h2>
 
+		<p>
 		Probablemente no sea injusto decir que las estadísticas del mercado laboral
 		son números fríos. Se esconden muchas historias
 		y diferentes  situaciones personales detrás de esos indicadores.
@@ -1073,9 +1104,11 @@
 		Si este es el caso, inducir mayores niveles de PIB
 		tendrá el efecto secundario (un efecto secundario muy importante)
 		de reducir el desempleo.
+		</p>
 
 		<h2 id="241">241_Price_levels_CPI</h2>
 
+		<p>
 		Qué es la inflación, sus causas y consecuencias, se encuentran entre
 		los temas más importantes en Macroeconomía.
 		En la próxima clase, introduciremos el sistema monetario
@@ -1162,9 +1195,11 @@
 		complejos porque tenemos muchos más bienes,
 		pero el procedimiento es el mismo. Simplemente está calculando
 		cómo cambia el coste de la cesta de la compra a lo largo del tiempo.
+		</p>
 
 		<h2 id="242">242_CPI_GDP</h2>
 
+		<p>
 		Ya hemos  aprendido cómo calcular las tasas de inflación con
 		el índice de precios al consumo, mientras que en la primera clase aprendimos
 		a calcular la inflación con el deflactor del  PIB.
@@ -1213,9 +1248,11 @@
 		afectó más al IPC que al deflactor.
 		A pesar de algunas diferencias en el corto plazo, ambos índices
 		tienden a mostrar un patrón similar en el largo plazo.
-
+		</p>
+		
 		<h2 id="243">243_Comparing _economic_variables</h2>
 
+		<p>
 		En economía, generalmente diferenciamos entre variables nominales y reales.
 		Esto es importante para responder a preguntas tales como...
 		¿Están mejorando los niveles de vida con el tiempo?
@@ -1272,11 +1309,11 @@
 		La distinción entre magnitudes nominales y reales son herramientas poderosas
 		que necesitará para analizar la evolución
 		de cualquier variable económica a lo largo del tiempo.
-
+		</p>
 
 		<h2 id="25">25_Summingup</h2>
 
-
+		<p>
 		En esta clase hemos hablado de tres  elementos
 		esenciales en nuestra explicación del crecimiento económico en el largo plazo,
 		así como de las fluctuaciones económicas en el corto plazo. En la primera parte de la clase,
@@ -1301,9 +1338,11 @@
 		En la próxima unidad veremos cómo funcionan el dinero y el sistema financiero,
 		qué son los bancos centrales, cómo se crea el dinero y cuál es la relación
 		entre la cantidad de dinero y el nivel de precios.
+		</p>
 
 		<h2 id="25">31_Introduction</h2>
 
+		<p>
 		Bienvenido a la tercera clase de nuestro curso en Macroeconomía.
 		Hoy abordaremos un tema muy interesante y bastante complejo:
 		el papel del dinero en la economía y cómo funciona el sistema monetario.
@@ -1325,9 +1364,11 @@
 		ecuación cuantitativa. Usando estos marcos, argumentaremos que
 		la causa principal de la inflación en el largo plazo es la expansión de
 		la oferta monetaria. Esperamos que disfrute de esta clase.
-
+		</p>
+		
 		<h2 id="25">32_Money</h2>
 
+		<p>
 		En esta parte de la clase, presentaremos algunas definiciones básicas
 		asociadas al concepto de dinero y revisaremos algunas características
 		de los diferentes tipos de dinero utilizados en el pasado.
@@ -1440,9 +1481,11 @@
 		usando paquetes de billetes de banco como ladrillos. La hiperinflación es destructiva
 		para una economía, ya que la gente pierde confianza en el dinero, y así,
 		el dinero pierde su papel. Afortunadamente es un fenómeno raro en las economías modernas.
-
+		</p>
+		
 		<h2 id="33A">33A_Simple_Structure_I</h2>
 
+		<p>
 		Para comprender cómo funciona el sistema monetario es conveniente
 		estudiar con mas detalle nuestro modelo macroeconómico básico.
 		En primer lugar presentaremos el banco central, actor crucial en
@@ -1525,10 +1568,11 @@
 		De acuerdo, todo esto parece un proceso muy complejo. Tomemos un pequeño
 		descanso, después resumiremos los conceptos principales
 		que hemos considerado implícitamente.
+		</p>
 
 		<h2 id="33B">33B_Simple_Structure_II</h2>
 
-
+		<p>
 		Ya estamos de regreso con toda la energía requerida para continuar.
 		Recordemos que íbamos  a resumir los principales conceptos
 		ya introducidos implícitamente en nuestro vídeo anterior.
@@ -1583,10 +1627,11 @@
 		Estas responsabilidades, la supervisión del sistema financiero
 		y el papel del prestamista de última instancia, corresponden a los bancos centrales.
 		Este será el tema principal de nuestro próximo video.
-
+		</p>
 
 		<h2 id="34A">34A_The_ central_banks_I</h2>
 
+		<p>
 		Como ya dijimos, los bancos centrales son probablemente la
 		institución más importante para los sistemas monetarios.
 		Son responsables de supervisar el sistema bancario y de regular
@@ -1629,10 +1674,11 @@
 		Nos detendremos en este punto y continuaremos en el siguiente vídeo
 		con el estudio del control monetario
 		del banco central.
+		</p>
 
 		<h2 id="35">35_classical_theory</h2>
 
-
+		<p>
 		En la clase 2 hemos definido la inflación como un aumento
 		en un índice de precios. Ahora presentaremos una teoría de la causa principal de la inflación.
 		Intentaremos responder por qué en algunos períodos los precios aumentan constantemente
@@ -1715,10 +1761,11 @@
 		un fenómeno monetario". Analizaremos más a fondo la relación
 		entre la oferta monetaria, el nivel de precios y otras variables macroeconómicas,
 		en el siguiente vídeo.
+		</p>
 
 		<h2 id="36">36_classical_dichotomy</h2>
 
-
+		<p>
 		Hemos visto en los vídeos anteriores que el banco central tiene
 		la responsabilidad de llevar a cabo la política monetaria. Podemos resumirla
 		en la expansión o contracción de la oferta monetaria.
@@ -1806,9 +1853,11 @@
 		de la neutralidad del dinero a largo plazo, como veremos en
 		vídeos futuros, las variables monetarias aún pueden influir en las variables reales
 		en el corto plazo.
+		</p>
 
 		<h2 id="37">37_Summarizing</h2>
 
+		<p>
 		Hemos llegado al final de un tema fascinante: qué es el dinero,
 		cómo se crea el dinero y cuáles son algunas de las consecuencias de
 		una política monetaria en particular. Hemos comenzado definiendo el dinero como un activo que,
